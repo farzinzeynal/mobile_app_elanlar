@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Elanlar</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="labeln_ame">Elanlar</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_adver_all_details">AdverAllDetails</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="about">\n Şəxsi kabinet və onun idarə edilməsi növbəti versiyada aktivləşəcək.\n
+                         Problem və təklifləriniz üçün  ferzinzeynalli1@gmail.com  adresinə müraciət edə bilərsininz \n \n \n
+                          Ⓒ Fərzin Zeynallı 2021 </string>
+
+</resources>

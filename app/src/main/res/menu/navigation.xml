@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Əsas" />
+
+    <item
+        android:id="@+id/navigation_add_adver"
+        android:icon="@drawable/ic_add_circle_outline_black_24dp"
+        android:title="Yeni Elan" />
+
+    <item
+        android:id="@+id/navigation_liked_adver"
+        android:icon="@drawable/nav_favorit"
+        android:title="Seçilmişlər" />
+
+    <item
+        android:id="@+id/navigation_account"
+        android:icon="@drawable/nav_account"
+        android:title="Kabinet" />
+
+</menu>

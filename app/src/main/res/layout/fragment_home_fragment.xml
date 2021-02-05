@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linear_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/my_black_2"
+    android:orientation="vertical"
+    tools:context="com.example.user.fragments.Home_fragment">
+
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="@mipmap/search_back"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteY="-4dp">
+
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_home"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/my_black_2"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme">
+
+            <SearchView
+                android:id="@+id/searchView_home"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@color/my_black_2"
+                android:clickable="false"
+                android:queryHint="Əşya axtar..."
+                app:iconifiedByDefault="false">
+
+            </SearchView>
+
+        </android.support.v7.widget.Toolbar>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerType"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            app:layoutManager="android.support.v7.widget.LinearLayoutManager" />
+    </LinearLayout>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_up_home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:descendantFocusability="blocksDescendants">
+
+        <GridView
+            android:id="@+id/gridView_Alladver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:numColumns="2" />
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</LinearLayout>
